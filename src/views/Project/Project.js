@@ -8,7 +8,7 @@ import invareal_two from "./../../assets/img/invareal_sub_two.png";
 import bella_one from "./../../assets/img/bella_one.png";
 import bella_two from "./../../assets/img/bella_two.png";
 import bella_logo from "./../../assets/img/bella_logo.png";
-
+import vedio from "./../../assets/video/bellabona.mp4";
 import "./Project.scss";
 
 class Project extends Component {
@@ -98,6 +98,17 @@ class Project extends Component {
                 <img src={this.project_content[id].img_two}></img>
               </div>
             </div>
+          </div>
+          <div className="vedio">
+            <video
+              width="650"
+              height="500"
+              autoPlay="true"
+              loop="true"
+              controls
+            >
+              <source src={vedio} type="video/mp4" />
+            </video>
           </div>
         </div>
       </div>

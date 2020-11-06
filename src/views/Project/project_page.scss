@@ -1,22 +1,17 @@
-// body {
-//   background: url(./../../assets/img/Focus2.svg);
-//   background-position: center;
-//   background-size: 200%;
-//   background-repeat: no-repeat;
-//   background-color: #102240;
-// }
 .wrap_project {
   overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url(./../../assets/img/Focus2.svg);
+  background-position: center;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-color: #102240;
+  height: 100vh;
   .proj_container {
     max-width: 1600px;
-    background: url(./../../assets/img/Focus2.svg);
-    background-position: center;
-    background-size: 200%;
-    background-repeat: no-repeat;
-    background-color: #102240;
+
     // height: 100vh;
     //width: 100v5h;
     .proj_title {
@@ -25,7 +20,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-top: 100px;
+      padding-top: 100 px;
     }
 
     .wrap_item {
