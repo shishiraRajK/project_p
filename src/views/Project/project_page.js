@@ -58,7 +58,9 @@ class Project_page extends Component {
                 </a>
               </div>
               <div className="rs">
-                <img src={this.data[id].p_img} />
+                <div className="project_image">
+                  <img src={this.data[id].p_img} />
+                </div>
               </div>
             </div>
           </div>
