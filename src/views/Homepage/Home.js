@@ -63,7 +63,7 @@ class Home extends Component {
         <div>{/* <h2> {"project:title"}</h2> */}</div>
         <div
           style={{
-            paddingTop: "100px",
+            paddingTop: "200px",
             backgroundColor: "#102240",
             height: "100vh",
             backgroundImage: "url(./../../assets/img/Focus.svg)",

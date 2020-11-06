@@ -30,7 +30,7 @@ class Project extends Component {
         img_two: invareal_two,
       },
       prj002: {
-        name: "Bella & Bona",
+        name: "Bella&Bona",
         desc_one:
           "Disjoint systems and manual processes are how companies start but not how they scale. The lack of tech infrastructure coupled with no in-house expertise compounded operational failures. Door-to-door lunch delivery for companies using a ghost kitchen to produce the food cuts down on complexity but needs end to end automation to challenge competitors like Lieferando. Standard solutions didn’t exist.",
         head_img: bella_one,
