@@ -2,6 +2,9 @@
 //   margin: 0px;
 //   background: transparent;
 // }
+body {
+  margin: 0;
+}
 
 .project_page {
   overflow-x: hidden;
@@ -31,6 +34,7 @@
     .main_content {
       // float: left;
       padding: 20px;
+      margin-bottom: 100px;
       background-image: url(./../../assets//img//Focus.svg);
       background-position: center;
       background-size: 100%;
@@ -86,9 +90,14 @@
     }
     .vedio {
       display: flex;
+
       align-items: center;
       justify-content: center;
       background-color: #102240;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      border: 0;
       video {
       }
     }
@@ -97,6 +106,7 @@
 @media only screen and (max-width: 1147px) {
   .project_page {
     .project_wrapper {
+      margin-top: 50px;
       .head_img {
         background-color: #102240;
         background-image: url(./../../assets/img/Focus.svg);
@@ -109,7 +119,7 @@
       }
       .main_content {
         background-image: none;
-
+        margin-bottom: 50px;
         .wrap_one {
           flex-direction: column;
           .gif_img {
@@ -138,6 +148,7 @@
 @media only screen and (max-width: 700px) {
   .project_page {
     .project_wrapper {
+      margin-top: 0px;
       .head_img {
         background-color: #102240;
         background-image: url(./../../assets/img/Focus.svg);
