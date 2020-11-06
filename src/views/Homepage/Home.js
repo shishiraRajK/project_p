@@ -38,7 +38,7 @@ class Home extends Component {
             <a href={`/project/${projectPost.pid}/`} key={projectPost.pid}>
               <div key={projectPost.pid}>
                 <div>
-                  <picture style={{ marginTop: "50px" }}>
+                  <picture>
                     <source
                       srcSet={imgUrl[projectPost.pid].imgURL_art[1]}
                       type="image/webp"
@@ -61,7 +61,18 @@ class Home extends Component {
     return (
       <div>
         <div>{/* <h2> {"project:title"}</h2> */}</div>
-        <div>{projects_done}</div>
+        <div
+          style={{
+            paddingTop: "100px",
+            backgroundColor: "#102240",
+            height: "100vh",
+            backgroundImage: "url(./../../assets/img/Focus.svg)",
+            backgroundSize: "200%",
+            backgroundPosition: "center",
+          }}
+        >
+          {projects_done}
+        </div>
         {/* <div className="blobs">
           <div className="blob"></div>
           <div className="blob"></div>
