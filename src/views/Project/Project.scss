@@ -1,0 +1,183 @@
+// body {
+//   margin: 0px;
+//   background: transparent;
+// }
+
+.project_page {
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .project_wrapper {
+    max-width: 1600px;
+    margin-top: 100px;
+    overflow-y: hidden;
+    .head_img {
+      img {
+        width: 100%;
+      }
+    }
+    .title {
+      left: 50%;
+      transform: translate(-50%, -80%) matrix(1.2, 0, 0, 1, 0, 0);
+      position: absolute;
+      display: inline-block;
+      background-color: black;
+      color: white;
+      vertical-align: middle;
+      padding: 5px 30px;
+    }
+    .main_content {
+      // float: left;
+      padding: 20px;
+      background-image: url(./../../assets//img//Focus.svg);
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position-x: -400px;
+      background-position-y: -500px;
+      .wrap_one {
+        width: 100%;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        .gif_img {
+          width: 30%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 80%;
+          }
+        }
+
+        .content_one {
+          float: right;
+          padding: 10px;
+          width: 70%;
+          font-size: 20px;
+        }
+        .button {
+          display: none;
+        }
+      }
+
+      .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        img {
+          width: 80%;
+        }
+        p.content_two {
+          padding: 50px;
+          margin-left: 100px;
+          margin-right: 100px;
+          text-align: justify;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1147px) {
+  .project_page {
+    .project_wrapper {
+      .head_img {
+        background-color: #102240;
+        background-image: url(./../../assets/img/Focus.svg);
+        background-position: center;
+        background-size: 200%;
+        padding: 50px;
+        img {
+          width: 100%;
+        }
+      }
+      .main_content {
+        background-image: none;
+
+        .wrap_one {
+          flex-direction: column;
+          .gif_img {
+            display: none;
+          }
+          p.content_one {
+            float: none;
+            padding: 50px;
+            font-size: 16px;
+          }
+          .button {
+            display: inline;
+            button {
+              width: 200px;
+              height: 50px;
+              background-color: black;
+              color: white;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 700px) {
+  .project_page {
+    .project_wrapper {
+      .head_img {
+        background-color: #102240;
+        background-image: url(./../../assets/img/Focus.svg);
+        background-position: center;
+        background-size: 200%;
+        padding: 30px;
+        img {
+          width: 100%;
+        }
+      }
+      .title {
+        transform: translate(-50%, -60%) matrix(0.5, 0, 0, 0.5, 0, 0);
+
+        padding: 5px 30px;
+      }
+      .main_content {
+        background-image: none;
+        padding: 10px;
+        .wrap_one {
+          flex-direction: column;
+          padding-top: 10px;
+          .gif_img {
+            display: none;
+          }
+          p.content_one {
+            float: none;
+            padding: 50px;
+            font-size: 16px;
+          }
+          .button {
+            display: inline;
+            button {
+              width: 140px;
+              height: 50px;
+              background-color: black;
+              color: white;
+              font-size: 16px;
+            }
+          }
+        }
+        .image {
+          p.content_two {
+            padding: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

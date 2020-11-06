@@ -1,0 +1,61 @@
+@keyframes animatedBackground {
+  0% {
+    background-size: 100% auto;
+  }
+  50% {
+    background-size: 140% auto;
+  }
+  100% {
+    background-size: 200% auto;
+  }
+}
+.aboutus {
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .about_wrapper {
+    max-width: 100%;
+    .about_image {
+      padding: 100px 150px 50px 150px;
+      background-color: #102240;
+      background-image: url(./../../assets/img/Focus.svg);
+      animation: animatedBackground 3s linear;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-out;
+      animation-delay: 0s;
+      animation-direction: alternate;
+      animation-iteration-count: 1;
+      background-position: center;
+      background-size: 200%;
+      .picture {
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .about_content {
+      h1 {
+        margin-top: 0px;
+      }
+      background-color: white;
+      padding: 0px 100px 50px 100px;
+      text-align: justify;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .aboutus {
+    .about_wrapper {
+      .about_image {
+        padding: 50px 60px 20px 60px;
+        animation: none;
+      }
+      .about_content {
+        padding: 0px 50px 20px 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4330.96" height="4644.69" viewBox="0 0 4330.96 4644.69">
+  <defs>
+    <path id="path-1" fill-rule="evenodd" d="M1243.91961001 1096.94846615c1575.28545186 0 1754.9305234-356.7094448 2240.75801318-67.53480353 485.82748978 289.17464127 870.40311766 1414.38070547 135.98845805 2148.41623368-734.41465961 734.0355282-1768.99950146 734.0355282-2503.41416107 0-734.4146596-734.0355282-1448.61776202-2080.88143015 126.66768984-2080.88143015z"/>
+    <mask id="mask-2" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="4330.96" height="4644.69" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-1"/>
+    </mask>
+    <path id="path-3" fill-rule="evenodd" d="M1398.99060468 1282.73184286c1315.78106056 0 1465.83233063-297.94697275 1871.62710833-56.40946872 405.7947777 241.53750403 727.0174024 1181.38293127 113.58642164 1794.49723678-613.43098076 613.1143055-1477.58365788 613.1143055-2091.01463864 0C679.75851525 2407.7053054 83.2095441 1282.73184286 1398.99060468 1282.73184286z"/>
+    <mask id="mask-4" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="4330.96" height="4644.69" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-3"/>
+    </mask>
+    <path id="path-5" fill-rule="evenodd" d="M1471.78355754 1428.66814695c1197.86061267 0 1334.4642709-271.24493125 1703.89167458-51.35404573 369.4274037 219.89088552 661.86202034 1075.50725896 103.40679366 1633.67419086-558.45522669 558.1669319-1345.16244286 558.1669319-1903.61766955 0-558.45522668-558.1669319-1101.54141135-1582.32014513 96.31920131-1582.32014513z"/>
+    <mask id="mask-6" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="4330.96" height="4644.69" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-5"/>
+    </mask>
+    <path id="path-7" fill-rule="evenodd" d="M1553.39184088 1594.79940386c1063.62210124 0 1184.91724063-240.84780873 1512.94468157-45.59904337 328.02744093 195.24876537 587.69030833 954.98030286 91.81848872 1450.59613552-495.87181962 495.61583265-1194.41651963 495.61583265-1690.28833925 0-495.87181962-495.61583266-978.09693228-1404.99709215 85.52516896-1404.99709215z"/>
+    <mask id="mask-8" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="4330.96" height="4644.69" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-7"/>
+    </mask>
+    <path id="path-9" fill-rule="evenodd" d="M1607.32919432 1789.63368946c906.19077278 0 1009.5324916-205.19887812 1289.00716577-38.84973084 279.47467418 166.34914728 500.70371238 813.629519 78.22803527 1235.8870989-422.47567712 422.2575799-1017.62574103 422.2575799-1440.10141815 0-422.47567711-422.2575799-833.32455566-1197.03736806 72.86621711-1197.03736806z"/>
+    <mask id="mask-10" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="4330.96" height="4644.69" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-9"/>
+    </mask>
+    <path id="path-11" fill-rule="evenodd" d="M1710.37826495 2013.15869644c702.64268214 0 782.7718389-159.13448344 999.47106003-30.12848757 216.69922113 129.00599588 388.23591014 630.9806097 60.65649548 958.44702899-327.57941465 327.46641929-789.04718694 327.46641929-1116.6266016 0-327.57941465-327.46641929-646.14363606-928.31854142 56.49904609-928.31854142z"/>
+    <mask id="mask-12" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="4330.96" height="4644.69" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-11"/>
+    </mask>
+  </defs>
+  <g>
+    <use fill-opacity="0" stroke="rgb(91,101,251)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-2)" transform="rotate(59.000021 2165.47986716 2322.34496158)" xlink:href="#path-1"/>
+    <use fill-opacity="0" stroke="rgb(97,183,254)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-4)" transform="rotate(59.000021 2168.73778357 2306.26284701)" xlink:href="#path-3"/>
+    <use fill-opacity="0" stroke="rgb(91,101,251)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-6)" transform="rotate(59.000021 2172.54590696 2360.47018641)" xlink:href="#path-5"/>
+    <use fill-opacity="0" stroke="rgb(97,183,254)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-8)" transform="rotate(59.000021 2175.6231044 2422.17884407)" xlink:href="#path-7"/>
+    <use fill-opacity="0" stroke="rgb(91,101,251)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-10)" transform="rotate(59.000021 2137.46130505 2494.5491039)" xlink:href="#path-9"/>
+    <use fill-opacity="0" stroke="rgb(97,183,254)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-12)" transform="rotate(59.000021 2121.4323822 2559.83005927)" xlink:href="#path-11"/>
+  </g>
+</svg>

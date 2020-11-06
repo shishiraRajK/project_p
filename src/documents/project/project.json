@@ -1,0 +1,15 @@
+{
+    
+    "projects":[
+        {
+            "pid":"prj001",
+            "pname":"invareal"            
+
+        },
+        {
+            "pid":"prj002",
+            "pname":"bellabona"            
+        }
+
+    ]
+}

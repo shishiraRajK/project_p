@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3815.375" height="4082.603" viewBox="0 0 3815.375 4082.603">
+  <defs>
+    <path id="path-1" fill-rule="evenodd" d="M1123.37884418 996.69168758c1340.67205563 0 1493.56188716-303.50074772 1907.03319716-57.46094943 413.47131 246.03979829 740.77059214 1203.40408117 115.73516747 1827.94692664s-1505.53551753 624.54284547-2130.5709422 0C390.54084194 2142.63481932-217.29321145 996.69168758 1123.37884418 996.69168758z"/>
+    <filter id="filter-2" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="39.157"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <linearGradient id="linearGradient-3" x1="765.177" x2="3335.825" y1="2469.963" y2="1297.606" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(97,183,254)"/>
+      <stop offset="1" stop-color="rgb(91,101,251)"/>
+    </linearGradient>
+    <path id="path-4" fill-rule="evenodd" d="M1255.3545118 1154.76261776c1119.81666378 0 1247.52021393-253.50360167 1592.87839529-47.99512932 345.35818136 205.50847235 618.73986979 1005.16150666 96.66955358 1526.82038862-522.0703162 521.65888195-1257.52137026 521.65888195-1779.59168647 0-522.0703162-521.65888196-1029.7729262-1478.8252593 90.0437376-1478.8252593z"/>
+    <filter id="filter-5" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="39.157"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <linearGradient id="linearGradient-6" x1="956.161" x2="3103.334" y1="2385.335" y2="1406.106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(97,183,254)"/>
+      <stop offset="1" stop-color="rgb(91,101,251)"/>
+    </linearGradient>
+    <path id="path-7" fill-rule="evenodd" d="M1317.30612674 1278.93027874c1019.45856737 0 1135.71731086-230.78458013 1450.12445283-43.69380039 314.40714198 187.09077975 563.28833248 915.07881842 88.00601723 1389.9865722-475.28231525 474.90775379-1144.82216242 474.90775379-1620.10447767 0-475.28231524-474.90775378-937.48455975-1346.29277181 81.97400761-1346.29277181z"/>
+    <filter id="filter-8" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="39.157"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <linearGradient id="linearGradient-9" x1="1044.927" x2="2999.669" y1="2399.219" y2="1507.748" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(97,183,254)"/>
+      <stop offset="1" stop-color="rgb(91,101,251)"/>
+    </linearGradient>
+    <path id="path-10" fill-rule="evenodd" d="M1386.76017067 1420.28050489c905.21272014 0 1008.44290213-204.92165571 1287.615939-38.7972451 279.17303688 166.12441062 500.16330236 812.53031059 78.14360367 1234.21742312-422.01969868 421.68711253-1016.5274165 421.68711253-1438.5471152 0-422.01969868-421.68711253-832.42514761-1195.42017802 72.78757253-1195.42017802z"/>
+    <filter id="filter-11" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="39.157"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <linearGradient id="linearGradient-12" x1="1144.905" x2="2880.589" y1="2415.024" y2="1623.456" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(97,183,254)"/>
+      <stop offset="1" stop-color="rgb(91,101,251)"/>
+    </linearGradient>
+    <path id="path-13" fill-rule="evenodd" d="M1432.66442405 1586.05226177c771.22825244 0 859.17888667-174.5903111 1097.0303094-33.05469628 237.85142272 141.53561482 426.13195884 692.264169 66.57722936 1051.53553985-359.55472948 359.27137085-866.06677695 359.27137085-1225.62150643 0-359.55472948-359.27137084-709.21428477-1018.48084357 62.01396767-1018.48084357z"/>
+    <filter id="filter-14" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="39.157"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <linearGradient id="linearGradient-15" x1="1226.607" x2="2705.385" y1="2433.559" y2="1759.155" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(97,183,254)"/>
+      <stop offset="1" stop-color="rgb(91,101,251)"/>
+    </linearGradient>
+    <path id="path-16" fill-rule="evenodd" d="M1520.36599533 1776.2350779c597.99537152 0 666.19058095-135.397129 850.6159433-25.63436051 184.42536233 109.76276849 330.41442431 536.86015223 51.62268742 815.47992122-278.7917369 278.61976898-671.53131698 278.61976898-950.32305387 0-278.7917369-278.61976899-549.91094838-789.84556071 48.08442315-789.84556071z"/>
+    <filter id="filter-17" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="38.554"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <linearGradient id="linearGradient-18" x1="1360.593" x2="2507.209" y1="2433.488" y2="1910.478" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(97,183,254)"/>
+      <stop offset="1" stop-color="rgb(91,101,251)"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g transform="rotate(59.000021 1907.68754384 2039.30145873)">
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-2)" xlink:href="#path-1"/>
+      <use fill="url(#linearGradient-3)" fill-opacity=".3" xlink:href="#path-1"/>
+    </g>
+    <g transform="rotate(59.000021 1910.46024607 2025.61823877)">
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-5)" xlink:href="#path-4"/>
+      <use fill="url(#linearGradient-6)" fill-opacity=".32" xlink:href="#path-4"/>
+    </g>
+    <g transform="rotate(59.000021 1913.70121081 2071.73972021)">
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-8)" xlink:href="#path-7"/>
+      <use fill="url(#linearGradient-9)" fill-opacity=".48" xlink:href="#path-7"/>
+    </g>
+    <g transform="rotate(59.000021 1916.32010926 2124.24358298)">
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-11)" xlink:href="#path-10"/>
+      <use fill="url(#linearGradient-12)" fill-opacity=".7" xlink:href="#path-10"/>
+    </g>
+    <g transform="rotate(59.000021 1883.84189528 2185.81870607)">
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-14)" xlink:href="#path-13"/>
+      <use fill="url(#linearGradient-15)" fill-opacity=".9" xlink:href="#path-13"/>
+    </g>
+    <g transform="rotate(59.000021 1870.20022233 2241.36200344)">
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-17)" xlink:href="#path-16"/>
+      <use fill="url(#linearGradient-18)" xlink:href="#path-16"/>
+    </g>
+  </g>
+</svg>
