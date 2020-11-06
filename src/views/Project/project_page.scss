@@ -17,7 +17,7 @@
     background-size: 200%;
     background-repeat: no-repeat;
     background-color: #102240;
-    height: 100vh;
+    // height: 100vh;
     //width: 100v5h;
     .proj_title {
       //margin-top: 100px;
@@ -122,7 +122,7 @@
       .rs {
         float: right;
         width: 50%;
-        padding-right: 0px;
+
         // padding-top: 10px;
         img {
           width: 100%;
@@ -138,74 +138,23 @@
   // }
   .wrap_project {
     .proj_container {
-      background: none;
-      background-color: #102240;
-
-      h1 {
-        padding-left: 80px;
-        font-size: 40px;
+      background-image: none;
+      .proj_title {
+        //margin-top: 100px;
+        font-size: 20px;
         color: white;
+        padding-top: 50px;
       }
       .wrap_item {
         display: flex;
         flex-direction: column-reverse;
         .lf {
           width: 100%;
-
           background-color: white;
-          padding: 0px 50px 100px 50px;
-          text-align: justify;
+          padding: 0px 10px 0px 10px;
+          text-align: left;
           p {
-            color: black;
-            line-height: 80px;
-          }
-        }
-        .rs {
-          display: flex;
-          width: 100%;
-          padding: 50px;
-          background-color: #102240;
-          background-image: url(./../../assets/img/Focus.svg);
-          // animation: animatedBackground 3s linear;
-          // animation-duration: 1.5s;
-          // animation-timing-function: ease-out;
-          // animation-delay: 0s;
-          // animation-direction: alternate;
-          // animation-iteration-count: 1;
-          background-position: center;
-          background-size: 200%;
-
-          img {
-            width: 100%;
-          }
-        }
-      }
-    }
-  }
-}
-@media only screen and (max-width: 700px) {
-  // body {
-  //   background: none;
-  //   background-color: #102240;
-  // }
-  .wrap_project {
-    .proj_container {
-      h1 {
-        padding-left: 80px;
-        font-size: 40px;
-        color: white;
-      }
-      .wrap_item {
-        display: flex;
-        flex-direction: column-reverse;
-        .lf {
-          width: 100%;
-
-          background-color: white;
-          padding: 0px 90px 200px 50px;
-          text-align: justify;
-          p {
-            font-size: 25px;
+            font-size: 18px;
             color: black;
             line-height: 40px;
           }
@@ -222,11 +171,14 @@
           }
         }
         .rs {
-          width: 100%;
-
-          padding: 50px;
+          //width: 100%;
+          width: 90%;
+          padding: 20px;
           background-color: #102240;
           background-image: url(./../../assets/img/Focus.svg);
+          display: flex;
+          align-items: center;
+          justify-content: center;
           // animation: animatedBackground 3s linear;
           // animation-duration: 1.5s;
           // animation-timing-function: ease-out;
@@ -237,7 +189,72 @@
           background-size: 200%;
 
           img {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  // body {
+  //   background: none;
+  //   background-color: #102240;
+  // }
+  .wrap_project {
+    .proj_container {
+      .proj_title {
+        //margin-top: 100px;
+        font-size: 20px;
+        color: white;
+        padding-top: 50px;
+      }
+      .wrap_item {
+        display: flex;
+        flex-direction: column-reverse;
+        .lf {
+          width: 100%;
+          background-color: white;
+          padding: 0px 10px 20px 10px;
+          text-align: left;
+          p {
+            font-size: 18px;
+            color: black;
+            line-height: 40px;
+          }
+          button {
+            margin: 0;
+            padding: 0;
             width: 100%;
+            height: 100vh;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            background: #000;
+          }
+        }
+        .rs {
+          //width: 100%;
+          width: 90%;
+          padding: 20px;
+          background-color: #102240;
+          background-image: url(./../../assets/img/Focus.svg);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // animation: animatedBackground 3s linear;
+          // animation-duration: 1.5s;
+          // animation-timing-function: ease-out;
+          // animation-delay: 0s;
+          // animation-direction: alternate;
+          // animation-iteration-count: 1;
+          background-position: center;
+          background-size: 200%;
+
+          img {
+            width: 80%;
           }
         }
       }
