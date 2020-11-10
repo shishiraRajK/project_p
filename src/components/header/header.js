@@ -2,8 +2,9 @@ import React from "react";
 
 import "./header.scss";
 import logo from "./../../assets/img/p5.png";
-
+import Contactus from "./../../views/Contact/Contact";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -12,6 +13,29 @@ class Header extends React.Component {
     this.hamburger = React.createRef();
     this.state = {
       navLinks: [
+        {
+          linkName: "Portfolio",
+          linkAdd: "#",
+          active: false,
+        },
+        {
+          linkName: "About Us",
+          linkAdd: "About",
+          active: false,
+        },
+
+        {
+          linkName: "Careers",
+          linkAdd: "Career",
+          active: false,
+        },
+        // {
+        //   linkName: "Contact Us",
+        //   linkAdd: "Contact",
+        //   active: false,
+        // },
+      ],
+      navLinks_mobile: [
         {
           linkName: "Portfolio",
           linkAdd: "#",
@@ -77,21 +101,26 @@ class Header extends React.Component {
     const navlinks = this.state.navLinks.map((navLink) => {
       return (
         <div className="navLink" onClick={this.handleHamburger}>
-          <a>
-            {" "}
-            <Link smooth to={`/${navLink.linkAdd}`}>
-              {" "}
-              {navLink.linkName}{" "}
-            </Link>
-          </a>
+          <Link smooth to={`/${navLink.linkAdd}/`}>
+            {navLink.linkName}
+          </Link>
         </div>
       );
     });
 
+    const navLinks_mobile = this.state.navLinks_mobile.map((navLink_mobile) => {
+      return (
+        <div className="navLink" onClick={this.handleHamburger}>
+          <Link smooth to={`/${navLink_mobile.linkAdd}/`}>
+            {navLink_mobile.linkName}
+          </Link>
+        </div>
+      );
+    });
     return (
       <>
         <div className="menuWrapper" ref={this.menuWrapper}>
-          <div className="linksWrapper">{navlinks}</div>
+          <div className="linksWrapper">{navLinks_mobile}</div>
         </div>
         <div className="header-wrap" ref={this.headerNavbar}>
           <div className="brandLogo">
@@ -101,7 +130,16 @@ class Header extends React.Component {
           </div>
 
           <div className="navLinks hover hover-1">
-            <div className="desktopView">{navlinks}</div>
+            <div className="desktopView">
+              {navlinks}
+              <div className="navLink" onClick={this.handleHamburger}>
+                <a href="#contactus">Contact Us</a>
+
+                <div className="drop_down" id="contactus">
+                  <Contactus />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div ref={this.hamburger} id="hamburger" onClick={this.handleHamburger}>

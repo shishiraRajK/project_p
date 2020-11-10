@@ -10,22 +10,21 @@ import Home from "./views/Homepage/Home";
 import Project from "./views/Project/Project";
 import Project_page from "./views/Project/project_page";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
+// import TemporaryDrawer from "./views/TemporaryDrawer";
 function App() {
   return (
     <div>
       <Router>
         <Header />
         <Route exact path="/" component={Home} />
-        <Route exact path="/About" component={AboutUs} />
-        <Route exact path="/PrivacyPolicy" component={PrivacyPolicy} />
-        <Route exact path="/Contact" component={Contact} />
-        <Route exact path="/Career" component={Career} />
-        <Route exact path="/Career_desc" component={Career_desc} />
-        <Route exact path="/project/:projid" component={Project_page} />
-        <Route exact path="/projects/:pid" component={Project} />
+        <Route exact path="/About/" component={AboutUs} />
+        <Route exact path="/PrivacyPolicy/" component={PrivacyPolicy} />
+        <Route exact path="/Contact/" component={Contact} />
+        <Route exact path="/Career/" component={Career} />
+        <Route exact path="/Career_desc/" component={Career_desc} />
+        <Route exact path="/project/:projid/" component={Project_page} />
+        <Route exact path="/projects/:pid/" component={Project} />
       </Router>
-      {/* <CarouselComponent /> */}
     </div>
   );
 }

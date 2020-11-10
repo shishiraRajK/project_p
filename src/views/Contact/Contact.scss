@@ -11,31 +11,25 @@
 }
 
 .container_cnt {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0%;
-  margin: auto;
   background-color: #ffffff00;
-  animation: growDown 1000ms ease-in-out;
-
+  position: relative;
+  // transition: all 5s ease-in-out;
+  animation: growdown 1000ms ease-in-out;
   .contact_wrapper {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    margin: auto;
-    background: #102240;
-    background-image: url(./../../assets/img/Focus.svg);
-    background-position: center;
-    background-size: cover;
+    // position: relative;
+    // left: 0%;
+    // right: 0%;
+    // top: 0%;
+    // margin: auto;
+    // background: #102240;
+    // background-image: url(./../../assets/img/Focus.svg);
+    // background-position: center;
+    // background-size: cover;
     // z-index: 40;
     // transition: 1s;
     // opacity: 1;
     // display: none;
+
     .left_content {
       padding: 50px 50px 50px 50px;
       width: 40%;
@@ -53,6 +47,18 @@
       line-height: 30px;
       float: left;
       padding: 50px 50px 50px 10px;
+
+      a.close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none !important;
+        color: white;
+      }
+
       label {
         font-weight: 2px;
         font-size: 16px;
@@ -180,6 +186,9 @@
         line-height: 50px;
         float: left;
         padding: 50px 50px 40px 100px;
+        a.close {
+          display: none;
+        }
         label {
           font-weight: 400;
           font-size: 20px;
@@ -242,6 +251,9 @@
         line-height: 40px;
         float: left;
         padding: 0px 50px 40px 30px;
+        a.close {
+          display: none;
+        }
         label {
           font-weight: 2px;
           font-size: 16px;
