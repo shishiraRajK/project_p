@@ -4,7 +4,7 @@ import "./header.scss";
 import logo from "./../../assets/img/p5.png";
 import Contactus from "./../../views/Contact/Contact";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
+import TemporaryDrawer from "./../../views/TemporaryDrawer";
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -35,33 +35,21 @@ class Header extends React.Component {
         //   active: false,
         // },
       ],
-      navLinks_mobile: [
-        {
-          linkName: "Portfolio",
-          linkAdd: "#",
-          active: false,
-        },
-        {
-          linkName: "About Us",
-          linkAdd: "About",
-          active: false,
-        },
 
-        {
-          linkName: "Careers",
-          linkAdd: "Career",
-          active: false,
-        },
-        {
-          linkName: "Contact Us",
-          linkAdd: "Contact",
-          active: false,
-        },
-      ],
       scrollCheck: false,
     };
   }
+  openModal = () => {
+    this.setState({
+      visible: true,
+    });
+  };
 
+  closeModal = () => {
+    this.setState({
+      visible: false,
+    });
+  };
   handleHamburger = () => {
     if (window.innerWidth < 1000) {
       this.hamburger.current.classList.toggle("open");
@@ -108,19 +96,17 @@ class Header extends React.Component {
       );
     });
 
-    const navLinks_mobile = this.state.navLinks_mobile.map((navLink_mobile) => {
-      return (
-        <div className="navLink" onClick={this.handleHamburger}>
-          <Link smooth to={`/${navLink_mobile.linkAdd}/`}>
-            {navLink_mobile.linkName}
-          </Link>
-        </div>
-      );
-    });
     return (
       <>
         <div className="menuWrapper" ref={this.menuWrapper}>
-          <div className="linksWrapper">{navLinks_mobile}</div>
+          <div className="linksWrapper">
+            {navlinks}
+            {/* <div className="navLink" onClick={this.handleHamburger}>
+              <div>
+                <TemporaryDrawer />
+              </div>
+            </div> */}
+          </div>
         </div>
         <div className="header-wrap" ref={this.headerNavbar}>
           <div className="brandLogo">
@@ -133,10 +119,8 @@ class Header extends React.Component {
             <div className="desktopView">
               {navlinks}
               <div className="navLink" onClick={this.handleHamburger}>
-                <a href="#contactus">Contact Us</a>
-
-                <div className="drop_down" id="contactus">
-                  <Contactus />
+                <div id="contactus">
+                  <TemporaryDrawer />
                 </div>
               </div>
             </div>

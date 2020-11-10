@@ -1,0 +1,197 @@
+.modal_cnt {
+  .modal_wrapper {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+    height: 70vh;
+    background: #102240;
+    background-image: url(./../assets/img/Focus.svg);
+    background-position: center;
+    background-size: cover;
+    .left_modal {
+      float: left;
+      //padding: 50px 10px 0px 50px;
+      width: 50%;
+      h1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 35px;
+        color: #fff;
+      }
+      p {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 24px;
+      }
+    }
+    .right_modal {
+      float: right;
+      line-height: 25px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      label {
+        font-weight: 2px;
+        font-size: 16px;
+        color: white;
+      }
+      input[type="text"] {
+        padding: 5px;
+        border: 1px solid white;
+        background: transparent;
+
+        width: 500px;
+        color: blue;
+      }
+      textarea {
+        padding: 5px;
+        border: 1px solid white;
+        background: transparent;
+        width: 500px;
+        height: 100px;
+      }
+
+      button {
+        margin: 0;
+        padding: 20px;
+        width: 150px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        color: white;
+      }
+    }
+  }
+}
+// @media only screen and (max-width: 1000px) {
+//   .container_cnt {
+//     background-image: none;
+//     background-color: #102240;
+//     animation: none;
+//     .contact_wrapper {
+//       height: 100%;
+//       flex-direction: column;
+//       background-image: none;
+//       .left_content {
+//         // padding-left: 100px;
+
+//         // width: 100%;
+//         // h1 {
+//         //   font-size: 40px;
+//         //   font-weight: 700;
+//         // }
+//         // p {
+//         //   font-size: 30px;
+//         // }
+//         display: none;
+//       }
+//       .right_content {
+//         line-height: 50px;
+//         float: left;
+//         padding: 50px 50px 0px 100px;
+//         label {
+//           font-weight: 400;
+//           font-size: 20px;
+//           color: white;
+//         }
+//         input[type="text"] {
+//           padding: 20px;
+//           border: 1px solid white;
+//           background: transparent;
+
+//           width: 500px;
+//           color: blue;
+//         }
+//         textarea {
+//           padding: 20px;
+//           border: 1px solid white;
+//           background: transparent;
+//           width: 500px;
+//           height: 100px;
+//         }
+//         button {
+//           width: 80%;
+
+//           display: flex;
+//           flex-direction: row;
+//           justify-content: center;
+//           align-items: center;
+//           background: #000;
+//         }
+//         .glow-on-hover {
+//           width: 40%;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 700px) {
+//   .container_cnt {
+//     background-image: none;
+//     background-color: #102240;
+//     animation: none;
+//     .contact_wrapper {
+//       height: 100%;
+//       flex-direction: column;
+//       background-image: none;
+//       .left_content {
+//         // padding-left: 50px;
+
+//         // width: 80%;
+//         // h1 {
+//         //   font-size: 20px;
+//         //   font-weight: 700;
+//         // }
+//         // p {
+//         //   font-size: 14px;
+//         // }
+//         display: none;
+//       }
+//       .right_content {
+//         line-height: 40px;
+//         float: left;
+//         padding: 0px 50px 40px 30px;
+//         label {
+//           font-weight: 2px;
+//           font-size: 16px;
+//           color: white;
+//         }
+//         input[type="text"] {
+//           padding: 5px;
+//           border: 1px solid white;
+//           background: transparent;
+
+//           width: 300px;
+//           color: blue;
+//         }
+//         textarea {
+//           padding: 5px;
+//           border: 1px solid white;
+//           background: transparent;
+//           width: 300px;
+//           height: 100px;
+//         }
+//         button {
+//           width: 80%;
+
+//           display: flex;
+//           flex-direction: row;
+//           justify-content: center;
+//           align-items: center;
+//           background: #000;
+//         }
+//         .glow-on-hover {
+//           width: 60%;
+//         }
+//       }
+//     }
+//   }
+// }
