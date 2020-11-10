@@ -59,9 +59,8 @@
     }
 
     .transition {
-      // animation: 1000ms slide-right ease-in-out forwards;
-
-      //animation-timing-function: ease-in-out;
+      animation: 1000ms slide-right ease-in-out forwards;
+      animation-timing-function: ease-in-out;
     }
 
     /* This is the animation code. */
@@ -70,7 +69,6 @@
       overflow: hidden;
       color: #000;
       line-height: 50px;
-
       height: 0;
     }
 
@@ -84,6 +82,7 @@
       color: white;
       background-color: black;
       cursor: pointer;
+      font-size: 14px;
     }
     .career_container {
       line-height: 30px;

@@ -12,11 +12,11 @@ function Form() {
       // data-aos-offset="0"
     >
       <form
-        data-aos="fade-up"
-        //data-aos-duration="2000"
-        data-aos-easing="ease-in-back"
-        data-aos-delay="10"
-        data-aos-offset="0"
+      // data-aos="fade-up"
+      // //data-aos-duration="2000"
+      // data-aos-easing="ease-in-back"
+      // data-aos-delay="10"
+      // data-aos-offset="0"
       >
         <label>Name</label>
         <br></br>
