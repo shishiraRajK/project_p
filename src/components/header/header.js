@@ -101,11 +101,11 @@ class Header extends React.Component {
         <div className="menuWrapper" ref={this.menuWrapper}>
           <div className="linksWrapper">
             {navlinks}
-            {/* <div className="navLink" onClick={this.handleHamburger}>
-              <div>
+            <div className="navLink" onClick={this.handleHamburger}>
+              <div id="contactus">
                 <TemporaryDrawer />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="header-wrap" ref={this.headerNavbar}>

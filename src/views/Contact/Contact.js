@@ -13,9 +13,6 @@ class Contact extends Component {
             </p>
           </div>
           <div className="right_content">
-            <a className="close" href="#">
-              &times;
-            </a>
             <form>
               <label>Name</label>
               <br></br>

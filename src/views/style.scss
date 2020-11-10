@@ -1,9 +1,18 @@
 .modal_cnt {
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #102240;
   .modal_wrapper {
+    max-width: 1500px;
     display: flex;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    // padding-top: 50px;
+    // padding-left: 50px;
+    // padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     height: 70vh;
     background: #102240;
@@ -12,8 +21,9 @@
     background-size: cover;
     .left_modal {
       float: left;
+      padding-right: 50px;
       //padding: 50px 10px 0px 50px;
-      width: 50%;
+      width: 60%;
       h1 {
         display: flex;
         justify-content: flex-start;
@@ -30,13 +40,25 @@
     }
     .right_modal {
       float: right;
-      line-height: 25px;
+      line-height: 30px;
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
+      .close_drop {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        //font-weight: bold;
+        text-decoration: none !important;
+        color: white;
+        cursor: pointer;
+      }
+
       label {
         font-weight: 2px;
-        font-size: 16px;
+        font-size: 20px;
         color: white;
       }
       input[type="text"] {
@@ -57,9 +79,9 @@
 
       button {
         margin: 0;
-        padding: 20px;
-        width: 150px;
-        height: 30px;
+        padding: 10px;
+        width: 200px;
+        height: 50px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -70,128 +92,81 @@
     }
   }
 }
-// @media only screen and (max-width: 1000px) {
-//   .container_cnt {
-//     background-image: none;
-//     background-color: #102240;
-//     animation: none;
-//     .contact_wrapper {
-//       height: 100%;
-//       flex-direction: column;
-//       background-image: none;
-//       .left_content {
-//         // padding-left: 100px;
+@media only screen and (max-width: 1000px) {
+  .modal_cnt {
+    .modal_wrapper {
+      background-image: none;
+      display: flex;
+      flex-direction: column;
+      .left_modal {
+        width: 100%;
+        h1 {
+          font-size: 35px;
+        }
+        p {
+          font-size: 25px;
+        }
+      }
+      .right_modal {
+        line-height: 40px;
 
-//         // width: 100%;
-//         // h1 {
-//         //   font-size: 40px;
-//         //   font-weight: 700;
-//         // }
-//         // p {
-//         //   font-size: 30px;
-//         // }
-//         display: none;
-//       }
-//       .right_content {
-//         line-height: 50px;
-//         float: left;
-//         padding: 50px 50px 0px 100px;
-//         label {
-//           font-weight: 400;
-//           font-size: 20px;
-//           color: white;
-//         }
-//         input[type="text"] {
-//           padding: 20px;
-//           border: 1px solid white;
-//           background: transparent;
+        label {
+          font-size: 30px;
+        }
+        button {
+          width: 220px;
+          height: 50px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 700px) {
+  .modal_cnt {
+    .modal_wrapper {
+      // padding-top: 50px;
+      // padding-left: 40px;
+      // padding-right: 30px;
+      background-image: none;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      .left_modal {
+        padding-left: 50px;
+        padding-right: 20px;
+        width: 100%;
+        h1 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+      .right_modal {
+        line-height: 30px;
 
-//           width: 500px;
-//           color: blue;
-//         }
-//         textarea {
-//           padding: 20px;
-//           border: 1px solid white;
-//           background: transparent;
-//           width: 500px;
-//           height: 100px;
-//         }
-//         button {
-//           width: 80%;
+        label {
+          font-weight: 2px;
+          font-size: 18px;
+          color: white;
+        }
+        input[type="text"] {
+          padding: 5px;
+          border: 1px solid white;
+          background: transparent;
 
-//           display: flex;
-//           flex-direction: row;
-//           justify-content: center;
-//           align-items: center;
-//           background: #000;
-//         }
-//         .glow-on-hover {
-//           width: 40%;
-//         }
-//       }
-//     }
-//   }
-// }
-
-// @media only screen and (max-width: 700px) {
-//   .container_cnt {
-//     background-image: none;
-//     background-color: #102240;
-//     animation: none;
-//     .contact_wrapper {
-//       height: 100%;
-//       flex-direction: column;
-//       background-image: none;
-//       .left_content {
-//         // padding-left: 50px;
-
-//         // width: 80%;
-//         // h1 {
-//         //   font-size: 20px;
-//         //   font-weight: 700;
-//         // }
-//         // p {
-//         //   font-size: 14px;
-//         // }
-//         display: none;
-//       }
-//       .right_content {
-//         line-height: 40px;
-//         float: left;
-//         padding: 0px 50px 40px 30px;
-//         label {
-//           font-weight: 2px;
-//           font-size: 16px;
-//           color: white;
-//         }
-//         input[type="text"] {
-//           padding: 5px;
-//           border: 1px solid white;
-//           background: transparent;
-
-//           width: 300px;
-//           color: blue;
-//         }
-//         textarea {
-//           padding: 5px;
-//           border: 1px solid white;
-//           background: transparent;
-//           width: 300px;
-//           height: 100px;
-//         }
-//         button {
-//           width: 80%;
-
-//           display: flex;
-//           flex-direction: row;
-//           justify-content: center;
-//           align-items: center;
-//           background: #000;
-//         }
-//         .glow-on-hover {
-//           width: 60%;
-//         }
-//       }
-//     }
-//   }
-// }
+          width: 250px;
+          color: blue;
+        }
+        textarea {
+          padding: 5px;
+          border: 1px solid white;
+          background: transparent;
+          width: 250px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
