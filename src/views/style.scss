@@ -7,12 +7,12 @@
   .modal_wrapper {
     max-width: 1500px;
     display: flex;
-    // padding-top: 50px;
-    // padding-left: 50px;
-    // padding-right: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     margin: 0;
     height: 70vh;
     background: #102240;
@@ -92,12 +92,49 @@
     }
   }
 }
+
+@media only screen and (min-width: 2500px) {
+  .modal_cnt {
+    .modal_wrapper {
+      height: 50vh;
+      .left_modal {
+        padding-top: 50px;
+        h1 {
+          font-size: 40px;
+        }
+        p {
+          font-size: 30px;
+        }
+      }
+      .right_modal {
+        padding-top: 50px;
+        line-height: 45px;
+        .close_drop {
+          font-size: 50px;
+        }
+        label {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .modal_cnt {
+    .modal_wrapper {
+      height: 80vh;
+    }
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .modal_cnt {
     .modal_wrapper {
       background-image: none;
       display: flex;
       flex-direction: column;
+      height: 100vh;
       .left_modal {
         width: 100%;
         h1 {
@@ -125,16 +162,18 @@
 @media only screen and (max-width: 700px) {
   .modal_cnt {
     .modal_wrapper {
-      // padding-top: 50px;
-      // padding-left: 40px;
-      // padding-right: 30px;
+      padding-top: 50px;
+      padding-left: 40px;
+      padding-right: 30px;
+      justify-content: none;
+      align-items: none;
       background-image: none;
       height: 100vh;
       display: flex;
       flex-direction: column;
       .left_modal {
-        padding-left: 50px;
-        padding-right: 20px;
+        // padding-left: 50px;
+        // padding-right: 20px;
         width: 100%;
         h1 {
           font-size: 22px;
