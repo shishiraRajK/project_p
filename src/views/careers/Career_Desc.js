@@ -61,97 +61,99 @@ class Career_Desc extends Component {
 
   render() {
     return (
-      <div className="content" id="content">
-        <div className="left_content">
-          <h1>Careers</h1>
+      <div className="content_career" id="content">
+        <div className="career_wrapper">
+          <div className="left_content">
+            <h1>Careers</h1>
 
-          <a href="#nav1" id="one" onClick={() => this.setActiveLink("one")}>
-            <span>
-              Extra 1
-              {this.state.Cross === "one" ? (
-                <img src={cross} />
-              ) : (
-                <img src={plus} />
-              )}
-            </span>
-          </a>
-          <br></br>
+            <a href="#nav1" id="one" onClick={() => this.setActiveLink("one")}>
+              <span>
+                Extra 1
+                {this.state.Cross === "one" ? (
+                  <img src={cross} />
+                ) : (
+                  <img src={plus} />
+                )}
+              </span>
+            </a>
+            <br></br>
 
-          <a href="#nav2" id="two" onClick={() => this.setActiveLink("two")}>
-            <span>
-              Full Stack Developer
-              {this.state.Cross === "two" ? (
-                <img src={cross} />
-              ) : (
-                <img src={plus} />
-              )}
-            </span>
-          </a>
+            <a href="#nav2" id="two" onClick={() => this.setActiveLink("two")}>
+              <span>
+                Full Stack Developer
+                {this.state.Cross === "two" ? (
+                  <img src={cross} />
+                ) : (
+                  <img src={plus} />
+                )}
+              </span>
+            </a>
 
-          <br></br>
-          <a
-            href="#nav3"
-            id="three"
-            onClick={() => this.setActiveLink("three")}
-          >
-            <span>
-              Extra 2
-              {this.state.Cross === "three" ? (
-                <img src={cross} />
-              ) : (
-                <img src={plus} />
-              )}
-            </span>
-          </a>
-          <br></br>
-          <br></br>
-          <button> More Opportunities</button>
-        </div>
-
-        <div className="right_content">
-          <div className="expandable" id="nav1">
-            <h1>Extra 1 </h1>
-            {!this.state.show && <p>Job Description 1</p>}
-            <section id="content">
-              <div className="career_container">
-                {this.state.show && <Form />}
-              </div>
-            </section>
-            <button onClick={() => this.setState({ show: true })}>
-              Submit Application
-            </button>
+            <br></br>
+            <a
+              href="#nav3"
+              id="three"
+              onClick={() => this.setActiveLink("three")}
+            >
+              <span>
+                Extra 2
+                {this.state.Cross === "three" ? (
+                  <img src={cross} />
+                ) : (
+                  <img src={plus} />
+                )}
+              </span>
+            </a>
+            <br></br>
+            <br></br>
+            <button> More Opportunities</button>
           </div>
 
-          <div className="expandable" id="nav2">
-            <h1>Full Stack Developer</h1>
-            {!this.state.show && (
-              <p>
-                We're always on the lookout for talented developers with a knack
-                for problem solving.<br></br>If you think you're up to the task,
-                reach out and let us know!
-              </p>
-            )}
-            <section id="content">
-              <div className="career_container">
-                {this.state.show && <Form />}
-              </div>
-            </section>
-            <button onClick={() => this.setState({ show: true })}>
-              Submit Application
-            </button>
-          </div>
+          <div className="right_content">
+            <div className="expandable" id="nav1">
+              <h1>Extra 1 </h1>
+              {!this.state.show && <p>Job Description 1</p>}
+              <section id="content">
+                <div className="career_container">
+                  {this.state.show && <Form />}
+                </div>
+              </section>
+              <button onClick={() => this.setState({ show: true })}>
+                Submit Application
+              </button>
+            </div>
 
-          <div className="expandable" id="nav3">
-            <h1>Extra 2</h1>
-            {!this.state.show && <p>Job Description 2</p>}
-            <section id="content">
-              <div className="career_container">
-                {this.state.show && <Form />}
-              </div>
-            </section>
-            <button onClick={() => this.setState({ show: true })}>
-              Submit Application
-            </button>
+            <div className="expandable" id="nav2">
+              <h1>Full Stack Developer</h1>
+              {!this.state.show && (
+                <p>
+                  We're always on the lookout for talented developers with a
+                  knack for problem solving.<br></br>If you think you're up to
+                  the task, reach out and let us know!
+                </p>
+              )}
+              <section id="content">
+                <div className="career_container">
+                  {this.state.show && <Form />}
+                </div>
+              </section>
+              <button onClick={() => this.setState({ show: true })}>
+                Submit Application
+              </button>
+            </div>
+
+            <div className="expandable" id="nav3">
+              <h1>Extra 2</h1>
+              {!this.state.show && <p>Job Description 2</p>}
+              <section id="content">
+                <div className="career_container">
+                  {this.state.show && <Form />}
+                </div>
+              </section>
+              <button onClick={() => this.setState({ show: true })}>
+                Submit Application
+              </button>
+            </div>
           </div>
         </div>
       </div>

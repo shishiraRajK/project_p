@@ -10,159 +10,40 @@
   }
 }
 
-.content {
-  h1 {
-    font-weight: 600;
-    letter-spacing: 2px;
-  }
-  font-size: 18px;
-  width: 100%;
-  //padding-bottom: 200px;
+.content_career {
+  //  padding: 0px 0px 100px 150px;
+  padding-bottom: 100px;
   display: flex;
-  flex-wrap: wrap;
-  .left_content {
-    width: 30%;
-    float: left;
-    padding-top: 0px;
-    button {
-      border: 2px solid black;
-      background-color: white;
-      width: 150px;
-      height: 50px;
-      font-size: 14px;
-      cursor: pointer;
-    }
-    img {
-      width: 20px;
-    }
-
-    a {
-      text-decoration: none;
-      color: black;
-    }
-    a:hover,
-    a:focus,
-    a:active {
-      color: rgb(72, 72, 75);
-    }
-  }
-  .right_content {
-    width: 50%;
-    float: left;
-    padding-top: 80px;
-    // padding-bottom: 100px;
-    p {
-      line-height: 25px;
-    }
-
-    .transition {
-      animation: 1000ms slide-right ease-in-out forwards;
-      animation-timing-function: ease-in-out;
-    }
-
-    /* This is the animation code. */
-
-    .expandable {
-      overflow: hidden;
-      color: #000;
-      line-height: 50px;
-      height: 0;
-    }
-
-    .expandable:target {
-      height: auto;
-    }
-
-    button {
-      width: 150px;
-      height: 50px;
-      color: white;
-      background-color: black;
-      cursor: pointer;
-      font-size: 14px;
-    }
-    .career_container {
-      line-height: 30px;
-
-      label {
-        font-weight: 2px;
-        font-size: 20px;
-        color: black;
-      }
-      input[type="text"] {
-        padding: 5px;
-        border: 1px solid black;
-        background: transparent;
-        width: 600px;
-        color: blue;
-      }
-      textarea {
-        padding: 5px;
-        border: 1px solid black;
-        background: transparent;
-        width: 600px;
-        height: 100px;
-      }
-    }
-  }
-}
-@media screen and (min-width: 1900px) {
-  .content {
-    font-size: 20px;
-    padding-bottom: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  .career_wrapper {
+    width: 800px;
     h1 {
-      font-size: 35px;
-      font-weight: bold;
-      letter-spacing: 0px;
-    }
-    .left_content {
-      img {
-        width: 25px;
-      }
-    }
-    .right_content {
-      button {
-        font-size: 14px;
-        width: 200px;
-        height: 50px;
-      }
-      .career_container {
-        line-height: 40px;
-
-        label {
-          font-size: 20px;
-        }
-        input[type="text"] {
-          width: 550px;
-        }
-        textarea {
-          width: 550px;
-          height: 100px;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .content {
-    font-size: 20px;
-    padding-bottom: 10px;
-    flex-direction: column;
-    h1 {
-      font-weight: 700;
+      font-weight: 600;
       letter-spacing: 2px;
-      font-size: 25px;
     }
+    font-size: 18px;
+    //width: 100%;
+    // //padding-bottom: 200px;
+    // display: flex;
+    // flex-wrap: wrap;
     .left_content {
-      width: 50%;
+      width: 30%;
+      float: left;
       padding-top: 0px;
       button {
-        display: none;
+        border: 2px solid black;
+        background-color: white;
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+        cursor: pointer;
       }
       img {
         width: 20px;
       }
+
       a {
         text-decoration: none;
         color: black;
@@ -170,17 +51,27 @@
       a:hover,
       a:focus,
       a:active {
-        color: blue;
+        color: rgb(72, 72, 75);
       }
     }
     .right_content {
-      width: fit-content;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      .transition {
-        animation: none;
+      width: 70%;
+      float: left;
+      padding-top: 80px;
+      // padding-bottom: 100px;
+      p {
+        line-height: 25px;
       }
+
+      .transition {
+        animation: 1000ms slide-right ease-in-out forwards;
+        animation-timing-function: ease-in-out;
+      }
+
+      /* This is the animation code. */
+
       .expandable {
+        overflow: hidden;
         color: #000;
         line-height: 50px;
         height: 0;
@@ -191,85 +82,218 @@
       }
 
       button {
-        font-size: 12x;
-        width: 130px;
+        width: 150px;
         height: 50px;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+        font-size: 14px;
       }
       .career_container {
-        line-height: 25px;
+        line-height: 30px;
 
         label {
           font-weight: 2px;
-          font-size: 14px;
+          font-size: 20px;
+          color: black;
         }
         input[type="text"] {
-          width: 500px;
+          padding: 5px;
+          border: 1px solid black;
+          background: transparent;
+          width: 550px;
+          color: blue;
         }
         textarea {
-          width: 500px;
+          padding: 5px;
+          border: 1px solid black;
+          background: transparent;
+          width: 550px;
           height: 100px;
         }
       }
     }
   }
 }
+@media screen and (min-width: 1900px) {
+  .content_career {
+    font-size: 20px;
+    padding-bottom: 10px;
+    .career_wrapper {
+      h1 {
+        font-size: 35px;
+        font-weight: bold;
+        letter-spacing: 0px;
+      }
+      .left_content {
+        img {
+          width: 25px;
+        }
+      }
+      .right_content {
+        button {
+          font-size: 14px;
+          width: 200px;
+          height: 50px;
+        }
+        .career_container {
+          line-height: 40px;
+
+          label {
+            font-size: 20px;
+          }
+          input[type="text"] {
+            width: 550px;
+          }
+          textarea {
+            width: 550px;
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 700px) {
-  .content {
+  .content_career {
     font-size: 14px;
     padding-bottom: 10px;
-    h1 {
-      font-weight: 700;
-      letter-spacing: 2px;
-      font-size: 18px;
-    }
-    .left_content {
-      width: 50%;
-      padding-top: 0px;
-      button {
-        display: none;
+    .career_wrapper {
+      width: 100%;
+      h1 {
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 18px;
       }
-      img {
-        width: 20px;
-      }
-      a {
-        text-decoration: none;
-        color: black;
-      }
-      a:hover,
-      a:focus,
-      a:active {
-        color: blue;
-      }
-    }
-    .right_content {
-      width: fit-content;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      .transition {
-        animation: none;
-      }
-
-      button {
-        font-size: 12x;
-        width: 130px;
-        height: 50px;
-      }
-      .career_container {
-        line-height: 25px;
-
-        label {
-          font-weight: 2px;
-          font-size: 14px;
+      .left_content {
+        width: 50%;
+        padding-top: 0px;
+        button {
+          display: none;
+        }
+        img {
+          width: 20px;
+        }
+        a {
+          text-decoration: none;
           color: black;
         }
-        input[type="text"] {
-          width: 300px;
-        }
-        textarea {
-          width: 300px;
-          height: 100px;
+        a:hover,
+        a:focus,
+        a:active {
+          color: blue;
         }
       }
+      .right_content {
+        width: fit-content;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        .transition {
+          animation: none;
+        }
+
+        button {
+          font-size: 12x;
+          width: 150px;
+          height: 50px;
+        }
+        .career_container {
+          line-height: 25px;
+
+          label {
+            font-size: 14px;
+          }
+          input[type="text"] {
+            width: 300px;
+          }
+          textarea {
+            width: 300px;
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content_career {
+    font-size: 20px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    .career_wrapper {
+      h1 {
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 25px;
+      }
+      .left_content {
+        width: 50%;
+        padding-top: 0px;
+        button {
+          display: none;
+        }
+        img {
+          width: 20px;
+        }
+        a {
+          text-decoration: none;
+          color: black;
+        }
+        a:hover,
+        a:focus,
+        a:active {
+          color: blue;
+        }
+      }
+      .right_content {
+        width: fit-content;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        .transition {
+          animation: none;
+        }
+        .expandable {
+          color: #000;
+          line-height: 50px;
+          height: 0;
+        }
+
+        .expandable:target {
+          height: auto;
+        }
+
+        button {
+          font-size: 12x;
+          width: 150px;
+          height: 50px;
+        }
+        .career_container {
+          line-height: 25px;
+
+          label {
+            font-weight: 2px;
+            font-size: 14px;
+          }
+          input[type="text"] {
+            width: 500px;
+          }
+          textarea {
+            width: 500px;
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .career_container {
+    .career_wrapper {
+      display: flex;
+      justify-content: center;
+      align-content: center;
     }
   }
 }

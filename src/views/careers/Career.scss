@@ -1,12 +1,18 @@
+@keyframes animatedBackground {
+  0% {
+    background-size: 100% auto;
+  }
+  50% {
+    background-size: 140% auto;
+  }
+  100% {
+    background-size: 200% auto;
+  }
+}
 .top_wrapper {
   overflow-x: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   .career_wrapper {
-    max-width: 1600px;
     .career_image {
-      padding: 100px 200px 50px 200px;
       background-color: #102240;
       background-image: url(./../../assets/img/Focus.svg);
       animation: animatedBackground 3s linear;
@@ -17,26 +23,19 @@
       animation-iteration-count: 1;
       background-position: center;
       background-size: 200%;
-      @keyframes animatedBackground {
-        0% {
-          background-size: 100% auto;
-        }
-        50% {
-          background-size: 140% auto;
-        }
-        100% {
-          background-size: 200% auto;
-        }
-      }
+      padding: 100px 150px 50px 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       .picture {
         img {
           width: 100%;
         }
       }
     }
-    .career_content {
-      padding: 0px 50px 10px 150px;
-    }
+  }
+  .career_content {
+    //padding: 0px 150px 10px 150px;
   }
 }
 
@@ -44,7 +43,7 @@
   .top_wrapper {
     .career_wrapper {
       .career_image {
-        padding: 150px 200px 100px 200px;
+        // padding: 200px 500px 200px 500px;
         // animation: none;
         // display: none;
       }
