@@ -5,7 +5,7 @@
   justify-content: center;
   background-color: #102240;
   .modal_wrapper {
-    max-width: 1500px;
+    max-width: 1700px;
     display: flex;
     padding-top: 50px;
     padding-left: 50px;
@@ -205,7 +205,7 @@
 @media only screen and (min-width: 2500px) {
   .modal_cnt {
     .modal_wrapper {
-      height: 40vh;
+      height: 55vh;
       padding-top: 100px;
       padding-right: 50px;
       .left_modal {
@@ -245,16 +245,17 @@
   }
 }
 
-@media only screen and (min-width: 3700px) {
+@media only screen and (min-width: 3200px) {
   .modal_cnt {
     .modal_wrapper {
-      height: 40vh;
+      height: 50vh;
       padding-left: 0px;
       padding-top: 100px;
       padding-right: 0px;
+      background-size: 100%;
       .left_modal {
         padding-top: 50px;
-        padding-right: 40px;
+        padding-right: 30px;
         h1 {
           font-size: 55px;
         }
@@ -264,7 +265,7 @@
       }
       .right_modal {
         padding-top: 50px;
-        line-height: 60px;
+        line-height: 65px;
 
         .close_drop {
           font-size: 100px;
@@ -278,11 +279,11 @@
           height: 70px;
         }
         input[type="text"] {
-          width: 700px;
-          height: 40px;
+          width: 800px;
+          height: 60px;
         }
         textarea {
-          width: 700px;
+          width: 800px;
           height: 100px;
         }
       }
