@@ -3,8 +3,15 @@ import Careerimg from "./../../assets/img/career.jpg";
 
 import "./Career.scss";
 import Career_Desc from "./Career_Desc";
-
+import { scroller } from "react-scroll";
 class Career extends Component {
+  componentDidMount = () => {
+    scroller.scrollTo("career_content", {
+      duration: 2000,
+      delay: 2000,
+      smooth: "easeInOutQuart",
+    });
+  };
   render() {
     return (
       <div className="top_wrapper">

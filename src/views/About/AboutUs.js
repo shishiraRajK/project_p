@@ -1,8 +1,15 @@
 import React, { Component } from "react";
 import about from "./../../assets/img/about_us.jpg";
-
+import { scroller } from "react-scroll";
 import "./AboutUs.scss";
 class About extends Component {
+  componentDidMount = () => {
+    scroller.scrollTo("wrap_aboutus", {
+      duration: 2000,
+      delay: 2000,
+      smooth: "easeInOutQuart",
+    });
+  };
   render() {
     console.log("in about");
     return (
@@ -21,7 +28,7 @@ class About extends Component {
                 with German SMEs. From small startups to global players in the
                 digitalising processes. We work like a startup with flat
                 hierarchies, nice offices, and the motivation and skill to
-                always achieve our results. There's tremendous growth
+                always a chieve our results. There's tremendous growth
                 opportunities in the team and the opportunity to be staffed on
                 the best projects
               </p>

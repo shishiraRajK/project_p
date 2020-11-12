@@ -1,12 +1,12 @@
 @keyframes animatedBackground {
   0% {
-    background-size: 100% auto;
+    background-size: 0% auto;
   }
   50% {
-    background-size: 140% auto;
+    background-size: 100% auto;
   }
   100% {
-    background-size: 200% auto;
+    background-size: 150% auto;
   }
 }
 .aboutus {
@@ -15,18 +15,20 @@
     .about_image {
       background-color: #102240;
       background-image: url(./../../assets/img/Focus.svg);
-      animation: animatedBackground 3s linear;
-      animation-duration: 1.5s;
-      animation-timing-function: ease-out;
+      animation: animatedBackground;
+      animation-duration: 3s;
+      animation-timing-function: ease-in-out;
       animation-delay: 0s;
-      animation-direction: alternate;
-      animation-iteration-count: 1;
+      // animation-direction: alternate;
+      animation-iteration-count: 0.9;
       background-position: center;
-      background-size: 200%;
-      padding: 100px 150px 50px 150px;
+      background-size: 150%;
+      padding: 100px 200px 50px 200px;
       display: flex;
       align-items: center;
       justify-content: center;
+      background-repeat: no-repeat;
+
       .picture {
         img {
           width: 100%;
