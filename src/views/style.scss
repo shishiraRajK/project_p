@@ -4,21 +4,24 @@
   align-items: center;
   justify-content: center;
   background-color: #102240;
+  background-image: url(./../assets/img/Focus.svg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 70vh;
   .modal_wrapper {
     max-width: 1700px;
     display: flex;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+
     // display: flex;
     // justify-content: center;
     // align-items: center;
     margin: 0;
-    height: 70vh;
-    background: #102240;
-    background-image: url(./../assets/img/Focus.svg);
-    background-position: center;
-    background-size: cover;
+    //
+    background: transparent;
+
     .left_modal {
       float: left;
       padding-right: 50px;
@@ -145,11 +148,12 @@
 }
 @media only screen and (max-width: 1000px) {
   .modal_cnt {
+    height: 100vh;
+    background-image: none;
     .modal_wrapper {
-      background-image: none;
       display: flex;
       flex-direction: column;
-      height: 100vh;
+
       .left_modal {
         width: 100%;
         h1 {
@@ -177,9 +181,9 @@
 
 @media only screen and (min-width: 1001px) {
   .modal_cnt {
+    height: 70vh;
+    padding-top: 30px;
     .modal_wrapper {
-      height: 70vh;
-      padding-top: 30px;
       .left_modal {
         h1 {
           font-size: 30px;
@@ -213,11 +217,11 @@
 
 @media only screen and (min-width: 1920px) {
   .modal_cnt {
+    height: 70vh;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     .modal_wrapper {
-      height: 60vh;
-      padding-top: 30px;
-      padding-left: 50px;
-      padding-right: 50px;
       .left_modal {
         h1 {
           font-size: 30px;
@@ -249,10 +253,10 @@
 }
 @media only screen and (min-width: 2500px) {
   .modal_cnt {
+    height: 70vh;
+    padding-top: 30px;
+    padding-right: 50px;
     .modal_wrapper {
-      height: 60vh;
-      padding-top: 50px;
-      padding-right: 50px;
       .left_modal {
         padding-top: 30px;
         padding-right: 100px;
@@ -292,12 +296,12 @@
 
 @media only screen and (min-width: 3200px) {
   .modal_cnt {
+    height: 65vh;
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-right: 0px;
+    background-size: 100%;
     .modal_wrapper {
-      height: 65vh;
-      padding-left: 0px;
-      padding-top: 50px;
-      padding-right: 0px;
-      background-size: 100%;
       .left_modal {
         padding-top: 30px;
         padding-right: 30px;
@@ -338,21 +342,21 @@
 
 @media only screen and (min-width: 6000px) {
   .modal_cnt {
+    height: 55vh;
+    // padding-left: 0px;
+    // padding-top: 50px;
+    // padding-right: 0px;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .modal_wrapper {
-      height: 55vh;
-      // padding-left: 0px;
-      // padding-top: 50px;
-      // padding-right: 0px;
-      background-size: 150%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       width: 2500px;
       flex-direction: column;
       .left_modal {
         // padding-top: 30px;
         // padding-right: 30px;
-        padding-left: 100px;
+        //padding-left: 100px;
         h1 {
           font-size: 60px;
         }
