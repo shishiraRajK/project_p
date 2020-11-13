@@ -175,6 +175,42 @@
   }
 }
 
+@media only screen and (max-width: 1600px) {
+  .modal_cnt {
+    .modal_wrapper {
+      height: 70vh;
+      padding-top: 30px;
+      .left_modal {
+        h1 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+      .right_modal {
+        line-height: 20px;
+        label {
+          font-size: 16px;
+        }
+        button {
+          font-size: 16px;
+          width: 200px;
+          height: 40px;
+        }
+        input[type="text"] {
+          width: 400px;
+          height: 20px;
+        }
+        textarea {
+          width: 400px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 1920px) {
   .modal_cnt {
     .modal_wrapper {
