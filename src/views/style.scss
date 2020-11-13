@@ -206,11 +206,11 @@
 @media only screen and (min-width: 2500px) {
   .modal_cnt {
     .modal_wrapper {
-      height: 55vh;
-      padding-top: 100px;
+      height: 60vh;
+      padding-top: 50px;
       padding-right: 50px;
       .left_modal {
-        padding-top: 50px;
+        padding-top: 30px;
         padding-right: 100px;
         h1 {
           font-size: 50px;
@@ -220,13 +220,13 @@
         }
       }
       .right_modal {
-        padding-top: 50px;
-        line-height: 50px;
+        padding-top: 30px;
+        line-height: 40px;
         .close_drop {
           font-size: 50px;
         }
         label {
-          font-size: 40px;
+          font-size: 30px;
         }
         button {
           font-size: 25px;
@@ -249,13 +249,13 @@
 @media only screen and (min-width: 3200px) {
   .modal_cnt {
     .modal_wrapper {
-      height: 50vh;
+      height: 65vh;
       padding-left: 0px;
-      padding-top: 100px;
+      padding-top: 50px;
       padding-right: 0px;
       background-size: 100%;
       .left_modal {
-        padding-top: 50px;
+        padding-top: 30px;
         padding-right: 30px;
         h1 {
           font-size: 55px;
@@ -265,14 +265,14 @@
         }
       }
       .right_modal {
-        padding-top: 50px;
+        padding-top: 30px;
         line-height: 65px;
 
         .close_drop {
           font-size: 100px;
         }
         label {
-          font-size: 50px;
+          font-size: 40px;
         }
         button {
           font-size: 30px;
