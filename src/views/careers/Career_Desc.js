@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Career_Desc.scss";
 import plus from "./../../assets/img/plus.png";
 import cross from "./../../assets/img/cross.png";
-
+import { scroller } from "react-scroll";
 function Form() {
   return (
     <div
@@ -58,7 +58,13 @@ class Career_Desc extends Component {
     }
     this.setState({ show: false });
   }
-
+  componentDidMount = () => {
+    scroller.scrollTo("scroll_to_here", {
+      duration: 2000,
+      delay: 2000,
+      smooth: "easeInOutQuart",
+    });
+  };
   render() {
     return (
       <div className="content_career" id="content">
@@ -106,7 +112,7 @@ class Career_Desc extends Component {
             </a>
             <br></br>
             <br></br>
-            <button> More Opportunities</button>
+            <button className="scroll_to_here"> More Opportunities</button>
           </div>
 
           <div className="right_content">

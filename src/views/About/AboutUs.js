@@ -4,7 +4,7 @@ import { scroller } from "react-scroll";
 import "./AboutUs.scss";
 class About extends Component {
   componentDidMount = () => {
-    scroller.scrollTo("wrap_aboutus", {
+    scroller.scrollTo("scroll_here", {
       duration: 2000,
       delay: 2000,
       smooth: "easeInOutQuart",
@@ -38,7 +38,7 @@ class About extends Component {
                 to know everything about you. Your values and insights play a
                 huge role in coming up with the best solution for you.
               </p>
-              <p>
+              <p className="scroll_here">
                 We feel that the first step in solving a problem is to
                 completely understand it, which is why we first listen and then
                 get to work!
