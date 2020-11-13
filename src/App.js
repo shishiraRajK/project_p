@@ -9,6 +9,8 @@ import Home from "./views/Homepage/Home";
 // import SimpleCollapse from "./views/Slide/Slide";
 import Project from "./views/Project/Project";
 import Project_page from "./views/Project/project_page";
+
+import Blob from "./views/blob/Blob";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // import TemporaryDrawer from "./views/TemporaryDrawer";
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <Route exact path="/project/:projid/" component={Project_page} />
         <Route exact path="/projects/:pid/" component={Project} />
       </Router>
+
+      {/* <Blob /> */}
     </div>
   );
 }

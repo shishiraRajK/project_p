@@ -98,19 +98,20 @@
 
 @media only screen and (max-width: 700px) {
   .modal_cnt {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 0px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: none;
+    height: 100vh;
+
     .modal_wrapper {
-      padding-top: 80px;
-      padding-left: 40px;
-      padding-right: 20px;
-      justify-content: none;
-      align-items: none;
-      background-image: none;
-      height: 100vh;
       display: flex;
       flex-direction: column;
       .left_modal {
         // padding-left: 50px;
-        // padding-right: 20px;
+        padding-right: 20px;
         width: 100%;
         h1 {
           font-size: 22px;
@@ -125,28 +126,26 @@
         label {
           font-weight: 2px;
           font-size: 18px;
-          color: white;
         }
         input[type="text"] {
           padding: 5px;
           border: 1px solid white;
           background: transparent;
 
-          width: 250px;
+          width: 300px;
           color: blue;
         }
         textarea {
           padding: 5px;
-          border: 1px solid white;
-          background: transparent;
-          width: 250px;
+
+          width: 300px;
           height: 100px;
         }
       }
     }
   }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 701px) {
   .modal_cnt {
     height: 100vh;
     background-image: none;
