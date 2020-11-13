@@ -346,16 +346,17 @@
     // padding-left: 0px;
     // padding-top: 50px;
     // padding-right: 0px;
-    background-size: 100%;
+    background-size: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
     .modal_wrapper {
-      width: 2500px;
-      flex-direction: column;
+      max-width: 2000px;
+      //Sflex-direction: column;
       .left_modal {
         // padding-top: 30px;
-        // padding-right: 30px;
+        padding-right: 100px;
         //padding-left: 100px;
         h1 {
           font-size: 60px;
