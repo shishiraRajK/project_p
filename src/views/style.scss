@@ -335,3 +335,55 @@
     }
   }
 }
+
+@media only screen and (min-width: 6000px) {
+  .modal_cnt {
+    .modal_wrapper {
+      height: 55vh;
+      // padding-left: 0px;
+      // padding-top: 50px;
+      // padding-right: 0px;
+      background-size: 150%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2500px;
+      flex-direction: column;
+      .left_modal {
+        // padding-top: 30px;
+        // padding-right: 30px;
+        padding-left: 100px;
+        h1 {
+          font-size: 60px;
+        }
+        p {
+          font-size: 50px;
+        }
+      }
+      .right_modal {
+        padding-top: 30px;
+        line-height: 70px;
+
+        .close_drop {
+          font-size: 100px;
+        }
+        label {
+          font-size: 45px;
+        }
+        button {
+          font-size: 30px;
+          width: 350px;
+          height: 70px;
+        }
+        input[type="text"] {
+          width: 800px;
+          height: 60px;
+        }
+        textarea {
+          width: 800px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
