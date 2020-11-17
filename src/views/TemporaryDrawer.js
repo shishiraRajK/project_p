@@ -55,19 +55,15 @@ export default function TemporaryDrawer() {
                   <form>
                     <label>Name</label>
                     <br></br>
-                    <input
-                      type="text"
-                      name="name"
-                      placeholder="Type Here"
-                    ></input>
+                    <input type="text" name="name"></input>
                     <br></br>
                     <label>E-mail</label>
                     <br></br>
-                    <input type="text" name="email" placeholder="Type Here" />
+                    <input type="text" name="email" />
                     <br></br>
                     <label>Message</label>
                     <br></br>
-                    <textarea name="message" placeholder="Type Here" />
+                    <textarea name="message" />
                     <br></br>
 
                     <button>Send Message</button>
