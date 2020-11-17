@@ -26,7 +26,10 @@ export default function TemporaryDrawer() {
     <div>
       {["top"].map((anchor) => (
         <React.Fragment key={anchor}>
-          <a onClick={toggleDrawer(anchor, true)} style={{ cursor: "pointer" }}>
+          <a
+            onClick={toggleDrawer(anchor, true)}
+            style={{ cursor: "pointer", color: "white" }}
+          >
             Contact Us
           </a>
           <Drawer
