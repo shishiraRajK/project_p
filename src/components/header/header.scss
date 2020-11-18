@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 70px;
-  background: transparent;
+  //background: red;
   display: flex;
   transition: 0.2s;
   z-index: 15;
@@ -15,7 +15,7 @@
   padding-left: 0px;
   width: 20%;
   img {
-    width: 90px;
+    width: 100px;
     padding-left: 10px;
   }
   a {
@@ -35,7 +35,6 @@ object {
   align-items: center;
   display: flex;
   justify-content: flex-end;
-
   a {
     padding: 0px 10px 0px 10px;
     //box-sizing: border-box;

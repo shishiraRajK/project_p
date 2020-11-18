@@ -1,7 +1,7 @@
 import React from "react";
 import { matchPath } from "react-router";
 import "./header.scss";
-import logo from "./../../assets/img/p5.png";
+import logo from "./../../assets/img/logo_black.png";
 import Contactus from "./../../views/Contact/Contact";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import TemporaryDrawer from "./../../views/TemporaryDrawer";
@@ -38,7 +38,7 @@ class Header extends React.Component {
         // },
       ],
       backgroundColor: "transparent",
-      color: "white",
+      color: "black",
       scrollCheck: false,
     };
   }
@@ -48,7 +48,7 @@ class Header extends React.Component {
       this.setState({ color: "white" });
     } else {
       this.setState({ backgroundColor: "transparent" });
-      this.setState({ color: "white" });
+      this.setState({ color: "black" });
     }
   };
   handleHamburger = () => {

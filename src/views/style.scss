@@ -11,6 +11,9 @@
   padding-left: 50px;
   padding-right: 50px;
   height: 70vh;
+  a {
+    color: "white";
+  }
   .modal_wrapper {
     max-width: 1700px;
     display: flex;
@@ -97,81 +100,94 @@
   }
 }
 
-// @media only screen and (min-width: 300px) {
-//   .modal_cnt {
-//     padding-top: 50px;
-//     padding-left: 20px;
-//     padding-right: 0px;
-//     justify-content: flex-start;
-//     align-items: flex-start;
-//     background-image: none;
-//     height: 100vh;
-
-//     .modal_wrapper {
-//       display: flex;
-//       flex-direction: column;
-//       .left_modal {
-//         // padding-left: 50px;
-//         padding-right: 10px;
-//         width: 100%;
-//         h1 {
-//           font-size: 25px;
-//         }
-//         p {
-//           font-size: 20px;
-//         }
-//       }
-//       .right_modal {
-//         line-height: 35px;
-
-//         label {
-//           font-weight: 2px;
-//           font-size: 18px;
-//         }
-//         input[type="text"] {
-//           padding: 5px;
-//           border: 1px solid white;
-//           background: transparent;
-
-//           width: 300px;
-//           color: blue;
-//         }
-//         textarea {
-//           padding: 5px;
-//           width: 300px;
-//           height: 100px;
-//         }
-//       }
-//     }
-//   }
-// }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
   .modal_cnt {
-    height: 100vh;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
     background-image: none;
+    height: 100vh;
+
     .modal_wrapper {
       display: flex;
       flex-direction: column;
-
       .left_modal {
+        // padding-left: 50px;
+        padding-right: 10px;
         width: 100%;
         h1 {
-          font-size: 35px;
+          font-size: 25px;
         }
         p {
-          font-size: 25px;
+          font-size: 20px;
         }
       }
       .right_modal {
-        line-height: 40px;
+        line-height: 35px;
 
         label {
-          font-size: 30px;
+          font-weight: 2px;
+          font-size: 18px;
+        }
+        input[type="text"] {
+          padding: 5px;
+          border: 1px solid white;
+          background: transparent;
+          height: 30px;
+          width: 100px;
+          color: blue;
+        }
+        textarea {
+          padding: 5px;
+          width: 300px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .modal_cnt {
+    //height: 100vh;
+    //background-image: none;
+    .modal_wrapper {
+      display: flex;
+      //flex-direction: column;
+
+      .left_modal {
+        //width: 100%;
+        h1 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+      .right_modal {
+        line-height: 30px;
+
+        label {
+          font-size: 20px;
         }
         button {
-          width: 220px;
+          width: 150px;
           height: 50px;
-          font-size: 18px;
+          font-size: 14px;
+        }
+        input[type="text"] {
+          padding: 5px;
+          border: 1px solid white;
+          background: transparent;
+          height: 25px;
+          width: 250px;
+          color: blue;
+        }
+        textarea {
+          padding: 5px;
+          width: 250px;
+          height: 100px;
         }
       }
     }
@@ -192,7 +208,7 @@
         }
       }
       .right_modal {
-        line-height: 20px;
+        line-height: 25px;
         label {
           font-size: 16px;
         }

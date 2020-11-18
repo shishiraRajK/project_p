@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import project_data from "./../../documents/project/project.json";
 import bella_blob from "./../../assets/img/bella_logo.png";
 import invareal_blob from "./../../assets/img/invareal.png";
+import Header from "./../../components/header/header";
 import "./Home.scss";
 class Home extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class Home extends Component {
         imgURL_art: [bella_blob, bella_blob],
       },
     };
+
     const projects_done =
       project_data &&
       project_data.projects.map((projectPost, idx) => {
@@ -60,7 +62,7 @@ class Home extends Component {
       });
     return (
       <div>
-        <div>{/* <h2> {"project:title"}</h2> */}</div>
+        <Header />
         <div
           style={{
             paddingTop: "200px",

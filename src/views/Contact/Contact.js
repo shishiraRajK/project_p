@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import "./Contact.scss";
-
+import Header from "./../../components/header/header";
 class Contact extends Component {
   render() {
     return (
       <div className="container_cnt">
+        <Header style={{ color: "#fff" }} />
         <div className="contact_wrapper">
           <div className="left_content">
             <h1>We would love to hear from you!</h1>

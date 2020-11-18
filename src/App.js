@@ -17,8 +17,8 @@ function App() {
   return (
     <div>
       <Router>
-        <Header />
-        <Route exact path="/" component={CarouselPage} />
+        {/* <Header /> */}
+        <Route exact path="/" component={Home} />
         <Route exact path="/About/" component={AboutUs} />
         <Route exact path="/PrivacyPolicy/" component={PrivacyPolicy} />
         <Route exact path="/Contact/" component={Contact} />

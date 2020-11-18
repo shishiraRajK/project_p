@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import background from "./../../assets/img/Focus.svg";
+import Header from "./../../components/header/header";
 import "./PrivacyPolicy.scss";
 class PrivacyPolicy extends Component {
   render() {
     return (
       <div className="pp_wrapper">
+        <Header />
         <h1>Privacy Policy</h1>
         <p>
           Please read our Privacy Policy to understand our best practices

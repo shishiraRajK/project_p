@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import about from "./../../assets/img/about_us.jpg";
 import { scroller } from "react-scroll";
+import Header from "./../../components/header/header";
 import "./AboutUs.scss";
 class About extends Component {
   componentDidMount = () => {
@@ -14,6 +15,7 @@ class About extends Component {
     console.log("in about");
     return (
       <div className="aboutus">
+        <Header />
         <div className="about_wrapper">
           <div className="about_image">
             <div className="picture">

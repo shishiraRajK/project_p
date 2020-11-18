@@ -3,6 +3,7 @@ import "./project_page.scss";
 // import Slide from 'react-reveal/Slide';
 import ss1 from "./../../assets/img/invareal_sub_one.png";
 import bella from "./../../assets/img/bella_one.png";
+import Header from "./../../components/header/header";
 import project_file from "./../../documents/project/project.json";
 
 class Project_page extends Component {
@@ -47,7 +48,13 @@ class Project_page extends Component {
     return (
       <>
         <div className="wrap_project">
-          <div className="proj_container">
+          <Header />
+          <div
+            className="proj_container"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div className="proj_title">{this.data[id].project_name}</div>
             <div className="wrap_item">
               <div className="lf">

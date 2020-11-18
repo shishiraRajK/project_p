@@ -8,6 +8,7 @@ import invareal_two from "./../../assets/img/invareal_sub_two.png";
 import bella_one from "./../../assets/img/bella_one.png";
 import bella_two from "./../../assets/img/bella_two.png";
 import bella_logo from "./../../assets/img/bella_logo.png";
+import Header from "./../../components/header/project_header";
 import vedio from "./../../assets/video/bellabona.mp4";
 import "./Project.scss";
 
@@ -54,6 +55,7 @@ class Project extends Component {
     let id = this.props.match.params.pid;
     return (
       <div className="project_page">
+        <Header />
         <div className="project_wrapper">
           <div className="head_img">
             <img src={this.project_content[id].head_img}></img>

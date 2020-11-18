@@ -1,14 +1,35 @@
 body {
   margin-top: 0px;
 }
+@keyframes projectanime {
+  // 0% {
+  //   background-size: 0% auto;
+  // }
+  0% {
+    background-size: 100% auto;
+  }
+  50% {
+    background-size: 150% auto;
+  }
+  100% {
+    background-size: 200% auto;
+  }
+}
 .wrap_project {
   overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   background: url(./../../assets/img/Focus2.svg);
+  animation: projectanime;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  // animation-direction: alternate;
+  animation-iteration-count: 1;
   background-position: center;
   background-size: 200%;
+
   background-repeat: no-repeat;
   background-color: #102240;
   height: 100vh;

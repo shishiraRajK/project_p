@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import Blob from "./../../assets/img/shape.gif";
+import "./Carousel.scss";
 import {
   MDBCarousel,
   MDBCarouselInner,

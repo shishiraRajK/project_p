@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Careerimg from "./../../assets/img/career.jpg";
-
+import Header from "./../../components/header/header";
 import "./Career.scss";
 import Career_Desc from "./Career_Desc";
 
@@ -8,6 +8,7 @@ class Career extends Component {
   render() {
     return (
       <div className="top_wrapper">
+        <Header />
         <div className="career_wrapper">
           <div className="career_image">
             <div className="picture">
