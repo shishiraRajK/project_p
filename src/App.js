@@ -25,7 +25,7 @@ function App() {
               <CSSTransition key={location.key} timeout={300} classNames="fade">
                 <Switch>
                   {/* <Header /> */}
-                  <Route exact path="/" component={Home} />
+
                   <Route exact path="/About/" component={AboutUs} />
                   <Route
                     exact
@@ -34,12 +34,13 @@ function App() {
                   />
                   <Route exact path="/Contact/" component={Contact} />
                   <Route exact path="/Career/" component={Career} />
-                  <Route exact path="/Career_desc/" component={Career_desc} />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>
           )}
         />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Career_desc/" component={Career_desc} />
         <Route exact path="/project/:projid/" component={Project_page} />
         <Route exact path="/projects/:pid/" component={Project} />
       </Router>
